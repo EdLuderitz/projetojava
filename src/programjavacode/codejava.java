@@ -8,6 +8,8 @@ public class codejava {
 
     private int idade;
 
+    private int cpf;
+
     public int getIdade() {
         return idade;
     }
