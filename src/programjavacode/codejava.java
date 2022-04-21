@@ -12,9 +12,6 @@ public class codejava {
 
     private Date dataNascimento;
 
-    private Date dataNascimento2;
-
-
     public Date getDataNascimento() {
         return dataNascimento;
     }
