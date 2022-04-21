@@ -1,5 +1,7 @@
 package programjavacode;
 
+import java.util.Date;
+
 public class codejava {
 
     private String nome;
@@ -8,7 +10,15 @@ public class codejava {
 
     private int idade;
 
-    private int cpf;
+    private Date dataNascimento;
+
+    public Date getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(Date dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
 
     public int getIdade() {
         return idade;
