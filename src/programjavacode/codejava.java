@@ -1,45 +1,18 @@
 package programjavacode;
 
-import java.util.Date;
-
 public class codejava {
 
-    private String nome;
+    public static void main(String[] args){
 
-    private String sobrenome;
+        int maiorIdade = 18;
 
-    private int idade;
+        int idosoIdade = 60;
 
-    private Date dataNascimento;
+        int jovemIdade = 16;
 
-    public Date getDataNascimento() {
-        return dataNascimento;
+        int criancaIdade = 7;
+
+        String cpf = "145.785.789-54";
     }
 
-    public void setDataNascimento(Date dataNascimento) {
-        this.dataNascimento = dataNascimento;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getSobrenome() {
-        return sobrenome;
-    }
-
-    public void setSobrenome(String sobrenome) {
-        this.sobrenome = sobrenome;
-    }
 }
