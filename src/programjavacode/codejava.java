@@ -12,7 +12,8 @@ public class codejava {
 
         int criancaIdade = 7;
 
-        String cpf = "145.785.789-54";
+        long cpf = 252154651;
+
     }
 
 }
