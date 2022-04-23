@@ -6,19 +6,12 @@ import java.util.Scanner;
 public class codejava {
 
     public static void main(String[] args) {
-        int numero = 0;
-        
-        while (numero <= 10) {
-            System.out.println("O número atual é: " + numero);
-            numero++;
+
+        for (int numero = 10; numero >=0; numero--){
+
+            System.out.println("O número é: " + numero);
         }
 
-        numero = 0;
-
-        do {
-            System.out.println("DO - número atual é: " + numero);
-            numero++;
-        } while (numero <=10);
     }
 
 }
