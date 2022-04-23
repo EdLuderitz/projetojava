@@ -8,15 +8,15 @@ public class codejava {
 
         for (int numero = 10; numero >= 0; numero--) {
 
-            if (numero == 7) {
-                System.out.println("Chegou no número 7");
-                break;
-            } else{
-                System.out.println("O número é: " + numero);
+            if (numero == 7 || numero == 3 || numero == 9) {
+                System.out.println("Chegou no número: " + numero);
+                continue;
             }
-
+            System.out.println("Processando laço de repetição");
         }
 
     }
 
 }
+
+
