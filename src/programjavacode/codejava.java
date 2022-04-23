@@ -10,15 +10,15 @@ public class codejava {
         System.out.println("Qual o valor?");
         mediaAluno = ler.nextInt();
 
-        if(mediaAluno >= 50){
-            if(mediaAluno >= 70){
-                System.out.println("Você foi aprovado");
-            } else {
-                System.out.println("Você está em recuperaçãp");
-            }
-        } else {
-            System.out.println("Você foi reprovado");
+        switch (mediaAluno) {
+            case 70:
+                System.out.println("Aluno Aprovado");
+                break;
+
+            default: System.out.println("Outro valor inserido: " + mediaAluno);
+            break;
         }
+
     }
 
 }
