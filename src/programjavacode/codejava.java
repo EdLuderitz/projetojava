@@ -1,10 +1,14 @@
 package programjavacode;
 
+import java.util.Scanner;
+
 public class codejava {
 
     public static void main(String[] args) {
-
-        int mediaAluno = 70;
+        Scanner ler = new Scanner(System.in);
+        int mediaAluno;
+        System.out.println("Qual o valor?");
+        mediaAluno = ler.nextInt();
 
         if(mediaAluno >= 50){
             if(mediaAluno >= 70){
@@ -12,10 +16,9 @@ public class codejava {
             } else {
                 System.out.println("Você está em recuperaçãp");
             }
+        } else {
+            System.out.println("Você foi reprovado");
         }
-
-
-
     }
 
 }
