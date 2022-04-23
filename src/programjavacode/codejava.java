@@ -6,9 +6,15 @@ public class codejava {
 
         int mediaAluno = 70;
 
-        String media = mediaAluno >= 70 ? "Aluno Aprovado" : "Reprovado";
+        if(mediaAluno >= 50){
+            if(mediaAluno >= 70){
+                System.out.println("Você foi aprovado");
+            } else {
+                System.out.println("Você está em recuperaçãp");
+            }
+        }
 
-        System.out.println(media);
+
 
     }
 
