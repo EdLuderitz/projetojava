@@ -12,6 +12,13 @@ public class codejava {
             System.out.println("O número atual é: " + numero);
             numero++;
         }
+
+        numero = 0;
+
+        do {
+            System.out.println("DO - número atual é: " + numero);
+            numero++;
+        } while (numero <=10);
     }
 
 }
