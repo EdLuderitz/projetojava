@@ -6,13 +6,14 @@ public class codejava {
 
     public static void main(String[] args) {
 
-        for (int numero = 10; numero >= 0; numero--) {
+        double numero;
 
-            if (numero == 7 || numero == 3 || numero == 9) {
-                System.out.println("Chegou no número: " + numero);
-                continue;
-            }
-            System.out.println("Processando laço de repetição");
+        numero = 17.0;
+
+        if (numero % 2 == 0){
+            System.out.println("Esse número é par");
+        } else {
+            System.out.println("Esse número é ímpar");
         }
 
     }
