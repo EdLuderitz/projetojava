@@ -1,20 +1,20 @@
 package programjavacode;
 
-import java.util.Scanner;
+import javax.swing.*;
+
 
 public class codejava {
 
     public static void main(String[] args) {
 
-        double numero;
+        String numero = JOptionPane.showInputDialog("Qual o valor?");
 
-        numero = 17.0;
+        double carroNumero = Double.parseDouble(numero);
 
-        if (numero % 2 == 0){
-            System.out.println("Esse número é par");
-        } else {
-            System.out.println("Esse número é ímpar");
-        }
+        int divisao = (int) (carroNumero / 2);
+
+        JOptionPane.showMessageDialog(null, divisao);
+
 
     }
 
